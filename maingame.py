@@ -6,13 +6,8 @@ import pygame
 import time
 import pickle
 import pytmx
-from PyQt5.QtWidgets import QDialog
-from PyQt5 import uic
-from server import *
-from client import *
 
-# Изображение не получится загрузить
-# без предварительной инициализации pygame
+
 pygame.init()
 size = width, height = 1000, 1000
 screen = pygame.display.set_mode(size)
